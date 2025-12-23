@@ -8,9 +8,11 @@
 :root {
     --primary-color: #0b0f0b;
     --text-color: #FBFADA;
-   .light-theme {
-        --primary-color: #f5f5f5;
-        --text-color: #333;
+    --accent-color: #535857;
+    --text-color: #FBFADA;
+    --light-bg: #f5f5f5;
+    --transition: all 0.3s ease;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -877,3 +879,4 @@ section {
     }
 
 }
+
